@@ -1,0 +1,423 @@
+.bodybg{
+    background-color: rgb(27, 26, 26);
+    /* background-color: black; */
+    overflow-x: hidden;
+}
+::-webkit-scrollbar{
+    width: 10px;
+    z-index: 4;
+}
+::-webkit-scrollbar-track{
+    background: hsl(120 75% 50% / 1);
+    background-color:white;
+    border-radius: 10px;
+    margin-block: 2px;
+}
+::-webkit-scrollbar-thumb{
+    background: hsl(120 100% 20% / 1);
+    border-radius: 10px;
+    background-color: rgb(28, 28, 28);
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: rgb(30,30,30);
+}
+.login_button{
+    z-index: 2;
+    cursor:grab;
+    margin-left: 90%;
+    margin-top: 6px;
+    position: absolute;
+    width: 100px;
+    border-radius: 25px;
+    height: 35px;
+    background-color: white;
+    color: rgb(27, 26, 26);
+    font-size: large;
+}
+.login_button :hover{
+    background-color: rgb(27, 26, 26);
+    border: 3px solid white;
+}
+.card{
+    padding-top:10% ;
+    padding-left: 35%;
+    display: flex;
+    width:100%;
+    z-index: 5;
+}
+.card img{
+    width: 450px;
+    margin-top: 17%;
+    z-index: 5;
+    align-self: center;
+    align-items: center;
+    border-radius: 8px;
+}
+.card :hover{
+    transform: scale(1.1);
+    transition-duration: 1.4s;  
+    z-index: 5;
+}
+.card:double-button{
+
+}
+.main_logo{
+    position:absolute;
+    width: 100%;
+}
+.main_logo img{
+    width: 150px;
+}
+.rays_right{
+    padding-left: 25%;
+}
+.rays_right :hover{
+    padding-left: 27%;
+    width: 100%;
+    transition-duration:0.7s ;
+}
+.ray1{
+    height: 5px;
+    transform: rotate(330deg);
+}
+.ray2{
+    height: 10px;
+    transform: rotate(330deg);
+}
+.ray3{
+    height: 5px;
+    transform: rotate(330deg);
+}
+.rays_left{
+    padding-right: 20%;
+    width: 90%;
+    z-index: -1;
+}
+.rays_left :hover{
+    padding-right: 22%;
+    width: 100%;
+    transition-duration: 0.7s;
+}
+.rayy1{
+    height: 5px;
+    transform: rotate(45deg);
+}
+.rayy2{
+    height: 10px;
+    transform: rotate(45deg);
+}
+.rayy3{
+    height: 5px;
+    transform: rotate(45deg);
+}
+.rays_right1{
+    padding-left:70% ;
+    width: 40%;
+}
+.rays_right1 :hover{
+    padding-left: 72%;
+    width: 100%;
+    transition-duration: 0.7s;
+} 
+.ray11{
+    height: 5px;
+    transform: rotate(45deg);
+}
+.ray22{
+    height: 10px;
+    transform: rotate(45deg);
+}
+.ray33{
+    height: 5px;
+    transform: rotate(45deg);
+}
+.rays_left1{
+    padding-right:65% ;   
+}
+.rays_left1 :hover{
+    padding-right: 67%;
+    width: 90%;
+    transition-duration: 0.7s;
+}
+.rayl1{
+    height: 5px;
+    transform: rotate(330deg);
+}
+.rayl2{
+    height: 10px;
+    transform: rotate(330deg);
+}
+.rayl3{
+    height: 5px;
+    transform: rotate(330deg);
+}
+.para{
+    margin-left: 2%;
+    margin-top: 12%;
+    position: absolute;
+    width: 60%;
+    font-size: 20px;
+}
+.para h2{
+    text-align: left;
+    color:rgb(54,141,123);
+}
+.firstblock{
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    height:230px;
+    border: 2px solid white;
+    margin-top: 35%;
+    display: flex;
+}
+.firstblock_left{
+    width: 220%;
+    background-color: white;
+    height: 230px;
+    margin-bottom: 5px;
+    float: left;
+    margin-right: 7px;
+}
+.firstblock_left h3{
+    margin-left: 35%;
+    color: rgb(27, 26, 26);;
+
+}
+.firstblock_left img{
+    margin-left: 25%;
+    height: 200px;
+}
+.firstblock_right{
+    width: 50%;
+    float: rigth;
+    margin-left: 50px;
+}
+.firstblock_right h3{
+
+}
+.secondblock{
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    height:230px;
+    border: 2px solid white;
+    margin-top: 5%;
+    display: flex;
+}
+.secondblock_left{
+    float: left;
+    width: 47%;
+    margin-left: 5px;
+}
+.secondblock_right{
+    float: right;
+    height: 230px;
+    background-color: white;
+    width: 53%;
+}
+.secondblock_right img{
+    margin-top: 3%;
+    margin-left: 20%;
+}
+
+.thirdblock{
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    height:230px;
+    border: 2px solid white;
+    margin-top: 5%;
+    display: flex ;
+}
+.thirdblock_left{
+    width: 200%;
+    background-color: white;
+    height: 230px;
+    margin-bottom: 5px;
+    float: left;
+    margin-right: 7px;
+}
+.thirdblock_left h3{
+    margin-left: 35%;
+    color: rgb(27, 26, 26);;
+
+}
+.thirdblock_left img{
+    margin-left: 25%;
+    height: 200px;
+}
+.thirdblock_right{
+    width: 50%;
+    float: right  ;
+    margin-left: 50px;
+}
+.foot{
+    margin-left: 2%;
+    margin-top: 5%;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+}
+.foot p{
+    color: rgb(54,141,123);
+}
+.foot hr{
+    width: 98%;
+}
+ /* second card second card second card second card second card */
+ body {
+    background-color: #1a1a1a;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+.second_card{
+    /* border:3px solid #fff; */
+    border-radius: 13px;
+    z-index: 2;
+    position: absolute;
+    width: 700px;
+    height: 300px;
+    margin-left: 30%;
+    margin-top: 15%  ;
+    background-color: rgb(27, 27, 30);
+}
+.second_card img{
+    position: absolute;
+    z-index: -1;
+    border-radius: 8px;
+    width: 700px;
+    height: 300px;
+}
+.qrcode{
+    margin-left: 490px;
+    position: absolute;
+}
+.qrcode img{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 80%;
+    width: 200px;
+    z-index: 2;
+    height:200px;
+}
+.profilepic img{
+    margin-top: 50px;
+    z-index: 2;
+    margin-left: 15px;
+    width: 150px;
+    height: 200px;
+    position: absolute;
+}
+.name{
+    margin-left: 200px;
+}
+.name h4{
+}
+.roll_no{
+    margin-left: 200px;
+}
+.course{
+    margin-left: 200px;
+}
+.college{
+    margin-left: 200px;
+}
+.phone_no{
+    margin-left: 200px;
+}
+.email{
+    margin-left: 200px;
+}
+
+
+
+/* .second_card{
+    z-index: 2;
+    position: absolute;
+}
+
+.second_card img{
+    border-radius: 8px;
+    position: absolute;
+    width: 600px;
+    height: 520px;
+    margin-left: 350px;
+    margin-top: 10px;
+}
+.qr{
+    position: absolute;
+    margin-top:20px ;
+    margin-left:380px;
+    z-index: 3;
+}
+.qr img{
+    width: 200px;
+    height: 200px;
+}
+.photo{
+    position: absolute;
+    z-index: 2;
+}
+.photo img{
+    width: 140px;
+    height: 200px;
+    margin-top: 28px;
+    margin-left: 370px;
+}
+.name{
+    z-index: 2;
+    margin-left: 530px;
+    margin-top: 0px;
+    position: absolute;
+}
+.class{
+    position: absolute;
+    margin-top:110px ;
+    margin-left: 530px;
+    z-index: 2;
+}
+.roll_no{
+    position: absolute;
+    margin-left: 527px ;
+    margin-top:220px ;
+    z-index: 2;
+}
+.dob{
+    position: absolute;
+    margin-top:320px ;
+    margin-left:525px;
+    z-index: 2;
+}
+.phone_no{
+    position: absolute;
+    z-index: 2;
+    margin-top: 420px;
+    margin-left: 525px;
+} */
+/* login login login login login */
+.login{
+    border: 3px solid white;
+    background-color:white;
+    color: rgb(27, 26, 26);
+    width: 500px;
+    height: 520px;
+    position: absolute;
+    margin-top: 7%;
+    margin-left: 35%;
+    z-index: 2;
+}
+.login img{
+    width: 500px;
+}
+.login_form{
+    margin-left: 5%;
+}
+.stylish_button{
+    border-radius: 3px;
+    width: 82px;
+}
